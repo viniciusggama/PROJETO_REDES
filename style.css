@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html,body{
+    height:100vh;
+    width: 100vw;
+    background-color:white;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+   
+    
+}
+
+section#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:640px;
+    width: 550px;
+    background-color: blue;
+    background: url(imagens/1995469-a-mao-esta-segurando-a-telamao_celular.jpg) no-repeat top center;
+}
+
+iframe#tela{
+    position: relative;
+    top: 104px;
+    left: 67px;
+    height:485px;
+    width: 224px;
+    border-radius: 24px;
+}
+
+section#redes_sociais img{
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.801);
+   box-sizing: border-box;
+
+}
+
+section#redes_sociais{
+    text-align: right;
+}
+
+section#redes_sociais img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
+    transition:transform 0.5s;
+}
