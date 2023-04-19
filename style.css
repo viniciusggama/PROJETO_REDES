@@ -48,7 +48,8 @@ section#redes_sociais img{
 }
 
 section#redes_sociais{
-    text-align: right;
+    position: fixed;
+    left: 800px;
 }
 
 section#redes_sociais img:hover{
